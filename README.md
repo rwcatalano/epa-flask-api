@@ -1,5 +1,14 @@
 # EPA Flask API Server
 
+### Access the environment
+<p>Load the python environment</p>
+<p>For windows us the .bat extension otherwise you can omit</p>
+```
+server/env/Scripts> activate.bat
+```
+<p>This will load your python environment and denote your bash with (env) server/env/Scripts</p>
+<p>It is important to note that you must run the API Server and Client within the specified python environment</p>
+
 ### Start the flask api server
 <p>The server is stored in a separate github repo to allow for parallel development between client and server</p>
 <p>API server will run at http://127.0.0.1:5000</p>
